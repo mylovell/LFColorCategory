@@ -179,5 +179,8 @@
     return [objc_getAssociatedObject(self, @"originSpeedKey") floatValue];
 }
 
+- (void)fastColor {
+    self.backgroundColor = [UIColor blueColor];
+}
 
 @end

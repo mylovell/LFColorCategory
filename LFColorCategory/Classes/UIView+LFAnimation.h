@@ -35,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 恢复
 - (void)resumeAnimation;
 
+- (void)fastColor;
 
 @end
 
