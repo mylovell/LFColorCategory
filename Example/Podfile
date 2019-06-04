@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LFColorCategory_Example' do
+  pod 'LFColorCategory', :path => '../'
+
+  target 'LFColorCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
