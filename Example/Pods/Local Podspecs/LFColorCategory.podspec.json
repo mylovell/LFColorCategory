@@ -1,8 +1,8 @@
 {
   "name": "LFColorCategory",
   "version": "0.1.0",
-  "summary": "A short description of LFColorCategory.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "fast Color.",
+  "description": "A long description of LFColorCategory, fast -> color.",
   "homepage": "https://github.com/mylovell/LFColorCategory",
   "license": {
     "type": "MIT",

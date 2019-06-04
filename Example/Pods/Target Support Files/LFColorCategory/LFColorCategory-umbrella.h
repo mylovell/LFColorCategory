@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+LFAnimation.h"
 
 FOUNDATION_EXPORT double LFColorCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char LFColorCategoryVersionString[];

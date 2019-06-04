@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		17D4278CABDEA6044AE99FAD596EA4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		22C91A8A8F02BDB42528B61C26BCFBBD /* LFColorCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F2B84762A906732EBE7E237DC40622 /* LFColorCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AE8A3E1FDDFCF7276D6F495A053A2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6B3EFAD10449A929F258F18E3A28E530 /* LFColorCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A663AC32B016AD78C94DC31E4F5866 /* LFColorCategory-dummy.m */; };
+		3CF69995AF915F08FBBA99C1A958F608 /* LFColorCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B3B9CB47D79210249A140D399A6607 /* LFColorCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF99E5591CCD8597B507F1E91D6112C /* Pods-LFColorCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D12F11AB4384D1B8AFCD9657604B4DCF /* Pods-LFColorCategory_Example-dummy.m */; };
 		8ECA6E0983BCC2EDEA1F5B1FCC9C7A01 /* Pods-LFColorCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E7258C3DBD1F6C034BBCEC6F49614 /* Pods-LFColorCategory_Tests-dummy.m */; };
+		B4DB33A4D9A3CDE280C48C39241566A3 /* UIView+LFAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A67FFD8E6F59F05B5BBAD88803C6C92 /* UIView+LFAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B79B35B71712A56CB425BE3FC4F733D7 /* Pods-LFColorCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB042755EACD5D81FA23BC5BB5628FB /* Pods-LFColorCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2BCD4C744B51F0DE71D3198F8147C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CB85B5D6EC33817D21EF42C66E2E4A5F /* LFColorCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F20AC05562A0F326A7EC9E35628EE06 /* LFColorCategory-dummy.m */; };
+		DA8E53401983B86392D05B4148BA20BF /* UIView+LFAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C08A0E62EE327FEB8B25118425B8974 /* UIView+LFAnimation.m */; };
+		E7D65C407E7EFA7EA9075EE7A36E6572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F5FF5BBED39519534BF746874B7BBC47 /* Pods-LFColorCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD947F39E72BDCF2A8C850086CFE49F /* Pods-LFColorCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5AED6E537025DDB2A6B1C3DB4BE9E893;
+			remoteGlobalIDString = BB7267F02900F5192EDC6A63794CF531;
 			remoteInfo = LFColorCategory;
 		};
 		EA26FEBA8572EA106B74F7C784F85ABC /* PBXContainerItemProxy */ = {
@@ -36,37 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DA9E8AAACB970699D3F15A2231CF32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0DD947F39E72BDCF2A8C850086CFE49F /* Pods-LFColorCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFColorCategory_Example-umbrella.h"; sourceTree = "<group>"; };
-		17AD1F597815138138BC610470D9DEBA /* LFColorCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LFColorCategory-Info.plist"; sourceTree = "<group>"; };
 		181E416DF70FC28F9B9F1FF8E0F88B5D /* Pods-LFColorCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFColorCategory_Example.modulemap"; sourceTree = "<group>"; };
-		1A3DC14D32C93171979D0234ACDBA279 /* LFColorCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFColorCategory.xcconfig; sourceTree = "<group>"; };
 		1BB042755EACD5D81FA23BC5BB5628FB /* Pods-LFColorCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFColorCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1C58418375C8A1D7A8C2954D8F94C127 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		23A663AC32B016AD78C94DC31E4F5866 /* LFColorCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFColorCategory-dummy.m"; sourceTree = "<group>"; };
-		2432A62BA3D4517231CEF27D22830DCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		25311FFB22DF8111E52B5A937A30EE1C /* Pods-LFColorCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFColorCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		254D882D382BF9F95FB44E283A364D39 /* Pods-LFColorCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFColorCategory_Example-Info.plist"; sourceTree = "<group>"; };
 		314E27357E01AA89BC4E49223DC6FC83 /* Pods-LFColorCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFColorCategory_Tests.modulemap"; sourceTree = "<group>"; };
 		330B655176D9B985CF86A0ABED6DD338 /* Pods-LFColorCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFColorCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40A4661D54F1A40668E1D6787EF192AC /* LFColorCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LFColorCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		44082D1B856BCF4053196B565C4211BB /* LFColorCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFColorCategory.modulemap; sourceTree = "<group>"; };
-		44F2B84762A906732EBE7E237DC40622 /* LFColorCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFColorCategory-umbrella.h"; sourceTree = "<group>"; };
+		35D8CFBF03E654F486B859674139765C /* LFColorCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFColorCategory.modulemap; sourceTree = "<group>"; };
 		4C77514ADAAD740EF853C751E8F84417 /* Pods-LFColorCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFColorCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A67FFD8E6F59F05B5BBAD88803C6C92 /* UIView+LFAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LFAnimation.h"; path = "LFColorCategory/Classes/UIView+LFAnimation.h"; sourceTree = "<group>"; };
 		5CE4803EEFFBAD39C10A2BF64EF1FB9A /* Pods-LFColorCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFColorCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
-		698303635E03BB4217C84F4B2A5C2489 /* LFColorCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFColorCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		698303635E03BB4217C84F4B2A5C2489 /* LFColorCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFColorCategory.framework; path = LFColorCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C08A0E62EE327FEB8B25118425B8974 /* UIView+LFAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LFAnimation.m"; path = "LFColorCategory/Classes/UIView+LFAnimation.m"; sourceTree = "<group>"; };
+		6F20AC05562A0F326A7EC9E35628EE06 /* LFColorCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFColorCategory-dummy.m"; sourceTree = "<group>"; };
 		7BC68B1FDAAB91F7632ADC6C648C523F /* Pods-LFColorCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFColorCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		84B3B9CB47D79210249A140D399A6607 /* LFColorCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFColorCategory-umbrella.h"; sourceTree = "<group>"; };
 		8676B8BF905FCD27C0F028C454D49A10 /* Pods-LFColorCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFColorCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87E0876F9FF74649DB9BFF99A849DFC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8934FFCC07DFB1D258AFDB7FCC47F8C3 /* Pods-LFColorCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFColorCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8D3796277076FBF3E4BD1CA929A76187 /* Pods-LFColorCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFColorCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A57E5696424F614062BDD2478C135298 /* Pods_LFColorCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFColorCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3A0E972D6BE042A0155765A6DB06BF /* LFColorCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LFColorCategory-Info.plist"; sourceTree = "<group>"; };
+		9A2DBEA8C1169ABD4A824A43FCCAD5E9 /* LFColorCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFColorCategory-prefix.pch"; sourceTree = "<group>"; };
+		9C9DD44B2CF192A87CDAC2618578E377 /* LFColorCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFColorCategory.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57E5696424F614062BDD2478C135298 /* Pods_LFColorCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFColorCategory_Tests.framework; path = "Pods-LFColorCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF097F09391454CB8EB27B7B94493B1F /* Pods-LFColorCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFColorCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1CE04F2A00FD5BCD6519DDCB96B654B /* LFColorCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFColorCategory-prefix.pch"; sourceTree = "<group>"; };
 		CA0E7258C3DBD1F6C034BBCEC6F49614 /* Pods-LFColorCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFColorCategory_Tests-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D12F11AB4384D1B8AFCD9657604B4DCF /* Pods-LFColorCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFColorCategory_Example-dummy.m"; sourceTree = "<group>"; };
 		D293E44DB9E01415DC9F831B2072C2EE /* Pods-LFColorCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFColorCategory_Tests-Info.plist"; sourceTree = "<group>"; };
-		DB8DF5F7801244B8FDA84096D0AC4A6C /* Pods_LFColorCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFColorCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8DF5F7801244B8FDA84096D0AC4A6C /* Pods_LFColorCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFColorCategory_Example.framework; path = "Pods-LFColorCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21DBB657755247D0D5EAC461E260476 /* LFColorCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LFColorCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F5FD61317E4DF02AEB63268574F00EF /* Frameworks */ = {
+		4EB2CB18E7C93EC199BA94D9D154A3A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2BCD4C744B51F0DE71D3198F8147C55 /* Foundation.framework in Frameworks */,
+				E7D65C407E7EFA7EA9075EE7A36E6572 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,14 +117,6 @@
 			path = "Target Support Files/Pods-LFColorCategory_Tests";
 			sourceTree = "<group>";
 		};
-		188D9C4A8A3C5E40D7487387C7EEE80E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A86A20D724A6D1B8DE2258B566330679 /* LFColorCategory */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		1AD01532B8FEFF0CE912115614B0A6B4 /* Pods-LFColorCategory_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,20 +134,6 @@
 			path = "Target Support Files/Pods-LFColorCategory_Example";
 			sourceTree = "<group>";
 		};
-		2EB41206A86B7E2786E841415EC88411 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				44082D1B856BCF4053196B565C4211BB /* LFColorCategory.modulemap */,
-				1A3DC14D32C93171979D0234ACDBA279 /* LFColorCategory.xcconfig */,
-				23A663AC32B016AD78C94DC31E4F5866 /* LFColorCategory-dummy.m */,
-				17AD1F597815138138BC610470D9DEBA /* LFColorCategory-Info.plist */,
-				B1CE04F2A00FD5BCD6519DDCB96B654B /* LFColorCategory-prefix.pch */,
-				44F2B84762A906732EBE7E237DC40622 /* LFColorCategory-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LFColorCategory";
-			sourceTree = "<group>";
-		};
 		675AF4D776FC11DFD2BB987FB023E047 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,14 +143,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		91B3B258615C95E4D4932D5C538B36A2 /* Pod */ = {
+		855FAC87F581DB48863CFF1847148770 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40A4661D54F1A40668E1D6787EF192AC /* LFColorCategory.podspec */,
-				1C58418375C8A1D7A8C2954D8F94C127 /* LICENSE */,
-				2432A62BA3D4517231CEF27D22830DCA /* README.md */,
+				35D8CFBF03E654F486B859674139765C /* LFColorCategory.modulemap */,
+				9C9DD44B2CF192A87CDAC2618578E377 /* LFColorCategory.xcconfig */,
+				6F20AC05562A0F326A7EC9E35628EE06 /* LFColorCategory-dummy.m */,
+				8D3A0E972D6BE042A0155765A6DB06BF /* LFColorCategory-Info.plist */,
+				9A2DBEA8C1169ABD4A824A43FCCAD5E9 /* LFColorCategory-prefix.pch */,
+				84B3B9CB47D79210249A140D399A6607 /* LFColorCategory-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LFColorCategory";
+			sourceTree = "<group>";
+		};
+		91322A47A67AE5B4195819B0815AB12B /* LFColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				5A67FFD8E6F59F05B5BBAD88803C6C92 /* UIView+LFAnimation.h */,
+				6C08A0E62EE327FEB8B25118425B8974 /* UIView+LFAnimation.m */,
+				9C73057D8BE32A1B4FAA36F97C6156D0 /* Pod */,
+				855FAC87F581DB48863CFF1847148770 /* Support Files */,
+			);
+			name = LFColorCategory;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -179,14 +177,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A86A20D724A6D1B8DE2258B566330679 /* LFColorCategory */ = {
+		9C73057D8BE32A1B4FAA36F97C6156D0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				91B3B258615C95E4D4932D5C538B36A2 /* Pod */,
-				2EB41206A86B7E2786E841415EC88411 /* Support Files */,
+				F21DBB657755247D0D5EAC461E260476 /* LFColorCategory.podspec */,
+				09DA9E8AAACB970699D3F15A2231CF32 /* LICENSE */,
+				87E0876F9FF74649DB9BFF99A849DFC3 /* README.md */,
 			);
-			name = LFColorCategory;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BF4B232C555417EA83ACFD8CF6F350AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91322A47A67AE5B4195819B0815AB12B /* LFColorCategory */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CD32F544547ADFAA22734331FC083AB3 /* Products */ = {
@@ -203,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				188D9C4A8A3C5E40D7487387C7EEE80E /* Development Pods */,
+				BF4B232C555417EA83ACFD8CF6F350AA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				CD32F544547ADFAA22734331FC083AB3 /* Products */,
 				675AF4D776FC11DFD2BB987FB023E047 /* Targets Support Files */,
@@ -229,14 +235,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		455946FB8B539DA58E4A9DE88A73263E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C91A8A8F02BDB42528B61C26BCFBBD /* LFColorCategory-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8DB0327F645F64B8E26366A0CE76F65B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,17 +243,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99AE3B9EDB389575DDC17B066D352FE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF69995AF915F08FBBA99C1A958F608 /* LFColorCategory-umbrella.h in Headers */,
+				B4DB33A4D9A3CDE280C48C39241566A3 /* UIView+LFAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5AED6E537025DDB2A6B1C3DB4BE9E893 /* LFColorCategory */ = {
+		BB7267F02900F5192EDC6A63794CF531 /* LFColorCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 578483A0C3DC3EF2647A5595B7538D67 /* Build configuration list for PBXNativeTarget "LFColorCategory" */;
+			buildConfigurationList = 8433B5B2923F37438F4BB50831BA0DCD /* Build configuration list for PBXNativeTarget "LFColorCategory" */;
 			buildPhases = (
-				455946FB8B539DA58E4A9DE88A73263E /* Headers */,
-				EDFA6F137DDF50161C21136C71C7B291 /* Sources */,
-				8F5FD61317E4DF02AEB63268574F00EF /* Frameworks */,
-				28E04DAC0761B3FEF2ABD768CB1E9ACA /* Resources */,
+				99AE3B9EDB389575DDC17B066D352FE3 /* Headers */,
+				618C67E61D7EF6B4127D52149893E9B1 /* Sources */,
+				4EB2CB18E7C93EC199BA94D9D154A3A6 /* Frameworks */,
+				8C6C761B8585BDDCCEA2139CBC38E174 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -325,7 +332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AED6E537025DDB2A6B1C3DB4BE9E893 /* LFColorCategory */,
+				BB7267F02900F5192EDC6A63794CF531 /* LFColorCategory */,
 				E6692AD282D7055B3A93096A953A6F8A /* Pods-LFColorCategory_Example */,
 				E80D3F6F3EE8EEBC3727161E511B648B /* Pods-LFColorCategory_Tests */,
 			);
@@ -333,14 +340,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28E04DAC0761B3FEF2ABD768CB1E9ACA /* Resources */ = {
+		37D282823F9FC885C755959BAC8C7F80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37D282823F9FC885C755959BAC8C7F80 /* Resources */ = {
+		8C6C761B8585BDDCCEA2139CBC38E174 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,19 +364,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		618C67E61D7EF6B4127D52149893E9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85B5D6EC33817D21EF42C66E2E4A5F /* LFColorCategory-dummy.m in Sources */,
+				DA8E53401983B86392D05B4148BA20BF /* UIView+LFAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDC9B0E40FF553225623D2DCE52E2589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8ECA6E0983BCC2EDEA1F5B1FCC9C7A01 /* Pods-LFColorCategory_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDFA6F137DDF50161C21136C71C7B291 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B3EFAD10449A929F258F18E3A28E530 /* LFColorCategory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +401,7 @@
 		9161DE315DFB002FD30A3EC16F1B10AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LFColorCategory;
-			target = 5AED6E537025DDB2A6B1C3DB4BE9E893 /* LFColorCategory */;
+			target = BB7267F02900F5192EDC6A63794CF531 /* LFColorCategory */;
 			targetProxy = 487C67CCF26A1B8E1443B4EC3AEFCFE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,7 +460,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -490,37 +499,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		325AD71D6E0A355501B59B02D63BDAD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3DC14D32C93171979D0234ACDBA279 /* LFColorCategory.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LFColorCategory/LFColorCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LFColorCategory/LFColorCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LFColorCategory/LFColorCategory.modulemap";
-				PRODUCT_MODULE_NAME = LFColorCategory;
-				PRODUCT_NAME = LFColorCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -619,9 +597,9 @@
 			};
 			name = Debug;
 		};
-		7EC723C7A5F5B330CDB1985A33037300 /* Debug */ = {
+		64A1B5EBCE8AFAE0C9FE26174A6547EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3DC14D32C93171979D0234ACDBA279 /* LFColorCategory.xcconfig */;
+			baseConfigurationReference = 9C9DD44B2CF192A87CDAC2618578E377 /* LFColorCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -644,10 +622,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		9BB2012E11E9FBAE5EA08F05900F85AA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -682,6 +661,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		C0AD6BD21C9919BF205C628979E4C4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9DD44B2CF192A87CDAC2618578E377 /* LFColorCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LFColorCategory/LFColorCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LFColorCategory/LFColorCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LFColorCategory/LFColorCategory.modulemap";
+				PRODUCT_MODULE_NAME = LFColorCategory;
+				PRODUCT_NAME = LFColorCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E68C9B16689E92F29CD6A6AC5C2F0C7D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -738,11 +747,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		578483A0C3DC3EF2647A5595B7538D67 /* Build configuration list for PBXNativeTarget "LFColorCategory" */ = {
+		8433B5B2923F37438F4BB50831BA0DCD /* Build configuration list for PBXNativeTarget "LFColorCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EC723C7A5F5B330CDB1985A33037300 /* Debug */,
-				325AD71D6E0A355501B59B02D63BDAD1 /* Release */,
+				C0AD6BD21C9919BF205C628979E4C4C2 /* Debug */,
+				64A1B5EBCE8AFAE0C9FE26174A6547EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

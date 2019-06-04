@@ -7,6 +7,7 @@
 //
 
 #import "LFViewController.h"
+#import "UIView+LFAnimation.h"
 
 @interface LFViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    UIView *redV = [[UIView alloc] initWithFrame:CGRectMake(30, 90, 100, 100)];
+    redV.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redV];
+    
+    [redV addAnimationForRotation];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,8 +8,8 @@
 
 #import "UIView+LFAnimation.h"
 #import <objc/runtime.h>
-#import "UIView+getCurrentVC.h"
-#import "ViewController.h"
+//#import "UIView+getCurrentVC.h"
+//#import "ViewController.h"
 
 @interface UIView ()
 // <CAAnimationDelegate>
