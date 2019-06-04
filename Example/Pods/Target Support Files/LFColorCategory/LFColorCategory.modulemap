@@ -1,0 +1,6 @@
+framework module LFColorCategory {
+  umbrella header "LFColorCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

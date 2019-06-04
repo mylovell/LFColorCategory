@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    s.description      = <<-DESC
+A long description of LFColorCategory, fast -> color.
                        DESC
 
   s.homepage         = 'https://github.com/mylovell/LFColorCategory'

@@ -1,0 +1,16 @@
+PODS:
+  - LFColorCategory (0.1.0)
+
+DEPENDENCIES:
+  - LFColorCategory (from `../`)
+
+EXTERNAL SOURCES:
+  LFColorCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LFColorCategory: 8b028350996e3162cedbb0851e12a256f34d65fb
+
+PODFILE CHECKSUM: 97b4ce7997099d1e6edac9e6d4b7658399ace426
+
+COCOAPODS: 1.6.1

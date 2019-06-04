@@ -1,0 +1,6 @@
+framework module Pods_LFColorCategory_Tests {
+  umbrella header "Pods-LFColorCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
